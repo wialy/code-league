@@ -5,7 +5,7 @@ export const RENDER_SCALE = 1;
 
 export const PHYSICS_TIME_STEP = 10;
 export const PHYSICS_ITERATIONS =
-  (PHYSICS_TIME_STEP * 30_000) / RENDER_TIME_STEP;
+  (PHYSICS_TIME_STEP * 10_000) / RENDER_TIME_STEP;
 
 export const MAX_FORCE = 1;
 
